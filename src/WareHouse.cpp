@@ -53,6 +53,7 @@ int WareHouse::getVolunteerCounter() const
 void WareHouse::start()
 {
     BaseAction *action = nullptr;
+    printf("warehouse is opened\n");
     open();
     while (isOpen)
     {
